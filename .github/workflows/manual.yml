@@ -1,0 +1,14 @@
+---
+name: Manual
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: build
+      run: echo hello
